@@ -11,7 +11,7 @@ namespace Proje_Hastane
     {
         public SqlConnection baglanti()
         {
-            SqlConnection baglan = new SqlConnection("Data Source=MGURIDEAPAD;Initial Catalog=HastaneProje;User ID=sa;Password=Gr1724Gr");
+            SqlConnection baglan = new SqlConnection("Data Source=MGURIDEAPAD;Initial Catalog=HastaneProje;User ID=sa;Password=");
             baglan.Open();
             return baglan;
         }
